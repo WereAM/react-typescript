@@ -4,6 +4,7 @@ import Counter from './components/Counter';
 import PropDrilling from './components/PropDrilling';
 import Context from './components/Context';
 import Form from './components/Form';
+import Phone from './components/Phone';
 
 function App() {
   return (
@@ -11,11 +12,17 @@ function App() {
       <header className="App-header">
         {/* <Counter initialCount={5} />
         <br/> */}
+
         {/* <PropDrilling />
         <br/> */}
+
         {/* <Context /> 
         <br/> */}
-        <Form />
+
+        {/* <Form />
+        <br/> */}
+
+        <Phone />
       </header>
     </div>
   );
