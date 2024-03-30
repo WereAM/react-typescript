@@ -7,6 +7,7 @@ import Form from './components/Form';
 import Phone from './components/Phone';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Stationery from './components/Stationery';
 
 function App() {
   return (
@@ -28,7 +29,9 @@ function App() {
 
         {/* <Login/> */}
 
-        <Signup />
+        {/* <Signup /> */}
+
+        <Stationery/>
       </header>
     </div>
   );
