@@ -8,22 +8,20 @@ import Phone from './components/Phone';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Stationery from './components/Stationery';
+import PhoneContextProvider from './context/PhoneContext';
+import PhoneModel from './components/PhoneModel';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <Counter initialCount={5} />
-        <br/> */}
+        {/* <Counter initialCount={5} /> */}
 
-        {/* <PropDrilling />
-        <br/> */}
+        {/* <PropDrilling /> */}
 
-        {/* <Context /> 
-        <br/> */}
+        {/* <Context /> */}
 
-        {/* <Form />
-        <br/> */}
+        {/* <Form /> */}
 
         {/* <Phone /> */}
 
@@ -31,7 +29,13 @@ function App() {
 
         {/* <Signup /> */}
 
-        <Stationery/>
+        {/* <Stationery/> */}
+
+        {/* <PhoneContextProvider>
+          <PhoneModel />
+        </PhoneContextProvider> */}
+
+        <PhoneModel/>
       </header>
     </div>
   );

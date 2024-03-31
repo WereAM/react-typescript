@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 // type CounterProps = {
 //   initialCount : number;
@@ -39,7 +39,7 @@ const Counter = ({initialCount}:CounterProps) => {
   )
 }
 
-export default Counter
+export default Counter;
 
 
 
